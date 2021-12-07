@@ -2,6 +2,18 @@
 
 It is a basic flutter ui for shopping list written in Flutter.
 
+<table align="center">
+ <thead>
+  <tr>
+   <th> Features </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr><td>You can create a shopping list.</td></tr>
+  <tr><td>You can delete and copy items in your list.</td></tr>
+  <tr><td>And finally you can add description for your items in your list.</td></tr>
+</table>
+
 <h4 align="center">
 1. Home Screen
 </h4>
