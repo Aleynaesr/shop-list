@@ -21,7 +21,8 @@ class WordAddState extends State {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:  Text("Add New Items",
+        title: Text(
+          "Add New Item",
           style: GoogleFonts.caveat(
             textStyle: const TextStyle(
               color: Colors.white,
@@ -29,7 +30,8 @@ class WordAddState extends State {
               letterSpacing: 1,
               fontWeight: FontWeight.w700,
             ),
-          ),),
+          ),
+        ),
         backgroundColor: Colors.deepPurple,
       ),
       body: Padding(
@@ -71,7 +73,16 @@ class WordAddState extends State {
 
   buildSaveButton() {
     return ElevatedButton(
-      child: const Text("Add"),
+      child: Text(
+        "Add",
+        style: GoogleFonts.caveat(
+          textStyle: const TextStyle(
+            color: Colors.white,
+            fontSize: 23.0,
+            fontWeight: FontWeight.w700,
+          ),
+        ),
+      ),
       onPressed: () {
         addWord();
       },

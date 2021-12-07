@@ -3,6 +3,7 @@ import 'package:sqflite_demo/data/db_helper.dart';
 import 'package:sqflite_demo/models/word.dart';
 import 'package:sqflite_demo/screens/word_add.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class WordList extends StatefulWidget {
   const WordList({Key key}) : super(key: key);
@@ -18,6 +19,12 @@ class _WordListState extends State {
 
   List<Word> words;
   int wordCount = 0;
+
+
+  void getfwords() async{
+    SharedPreferences prefs = await SharedPreferences.getInstance()  ;
+
+  }
 
 
   @override

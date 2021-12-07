@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^0.1.2
 
   google_fonts: ^2.1.0
+  shared_preferences:
 
 
 dev_dependencies:
