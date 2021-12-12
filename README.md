@@ -1,7 +1,7 @@
 # Shop List App
 
 It is a basic flutter ui for shopping list written in Flutter.
-
+## https://play.google.com/store/apps/details?id=com.shop_list_app_minimalist
 <table align="center">
  <thead>
   <tr>
